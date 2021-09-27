@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
+                /*  Xây dựng chương trình cho phép người dùng chọn các chức năng sau:
+                    – Nhập vào danh sách các phân số, sau đó cho phép
+                    – Xuất danh sách phân số
+                    – Thêm phân số
+                    – Xóa phân số tại vị trí thứ k
+                    – Cập nhật phân số tại vị trí thứ k
+                    – Tìm các phân số có giá trị lớn nhất
+                    – Xóa tất cả các phân số */
 
     public static void main(String[] args) {
         ArrayList<PhanSo> list = new ArrayList<>(4);
